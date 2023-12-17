@@ -1,0 +1,7 @@
+my_file = open('test2.txt','w')
+my_file.write('hello my name is tohidul islam')
+print(my_file)
+my_file.close()
+my_file = open('test2.txt','a')
+my_file.write('\nhi how are you?')
+print(my_file)

@@ -1,0 +1,7 @@
+fp = open('test.txt','w')
+file = fp.write('this file was created using python!')
+print(file)
+fp.close()
+v = open('test.txt','r')
+print(v.read())
+v.close()

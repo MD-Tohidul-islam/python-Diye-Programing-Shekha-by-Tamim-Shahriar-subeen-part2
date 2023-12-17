@@ -1,0 +1,16 @@
+import re
+s = 'Bangla english bangla'
+match1 = re.findall(r'english', s)
+print(match1)
+match2 = re.findall(r'^english', s)
+print(match2)
+match3 = re.findall(r'english$', s)
+print(match3)
+match4 = re.findall(r'^Bangla', s)
+print(match4)
+match5 = re.findall(r'bangla$', s)
+print(match5)
+match6 = re.findall(r'^bangla',s,re.IGNORECASE)
+print(match6)
+match7 = re.findall(r'^bangla',s,re.I)
+print(match7)
